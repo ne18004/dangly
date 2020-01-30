@@ -1,0 +1,281 @@
+﻿
+@charset "UTF-8";
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",
+     "メイリオ", Meiryo, Osaka, "MS Pゴシック", "MS PGothic",
+      "sans-serif";
+    font-size: 16px;
+    color: #DD0000;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+p{
+  margin-bottom: 30px;
+}
+a{
+  text-decoration: none;
+}
+
+body{
+  width: 100%;
+  background:#CCFFFF ;
+}
+header{
+  width: 960px;
+  height: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+.title-arena{
+  height: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: linear-gradient(#66CCFF,#00CC00);
+}
+nav{
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background:#00FF00;
+}
+nav ul{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+nav ul li{
+  display: inline-block;
+  width: 33.333333333333%;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+}
+nav ul li a{
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  height: 30px;
+  line-height: 30px;
+  padding: 15px 0;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #ffffff;
+}
+nav ul li a:hover{
+  font-size: 22px;
+  color: orange;
+  padding: 30px 0 15px 0;
+}
+
+nav ul li a.current{
+  color: orange;
+}
+
+nav ul li:first-child a{
+  border-left: none;
+}
+
+.page-title{
+  font-size: 2.2em;
+  line-height: 40px;
+  margin: 0;
+  color: white;
+}
+#container{
+  width: 960px;
+  min-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fafafa;
+}
+#main{
+  width: 70%;
+  background: #fff;
+  margin: 0;
+  float: left;
+
+}
+#sub{
+  width: 30%;
+  background: #fafafa;
+  margin: 0;
+  float: left;
+  height: auto;
+}
+footer{
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 0;
+  background: #AA0000;
+  text-align: center;
+  color: #fff;
+}
+footer span.name{
+  font-weight: bold;
+}
+.title{
+  margin: 0 0 30px 0;
+  height: 40px;
+  line-height: 30px;
+  font-size: 26px;
+  padding:  5px 0 5px 10px;
+  border-left: 5px solid #4169e1;
+  border-bottom: 1px solid #4169e1;
+}
+section{
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
+.title2{
+  margin: 30px 50px 10px;
+  height: 40px;
+  font-size: 26px;
+  padding-top: 5px;
+  padding-left: 10px;
+  border-bottom: 1px solid #d14836;
+  border-left: 5px solid #d14836;
+}
+
+.title3{
+  margin: 50px 50px 10px;
+  height: 40px;
+  font-size: 26px;
+  padding-top: 5px;
+  padding-left: 10px;
+  border-left: 5px solid #d14836;
+}
+
+.txta{
+  margin: 50px 30px 10px;
+}
+.myimg{
+  margin: 20px 50px 30px 50px;
+  height: 600px;
+  width: 570px;
+}
+
+.japanimg{
+  margin: 50px 50px -20px 50px;
+  height: 650px;
+  width: 450px;
+}
+
+
+.tablea{
+  height: 300px;
+  width: 572px;
+  margin-left: 50px;
+  margin-bottom: 45px;
+  border-collapse: collapse;
+}
+
+.tabletitle{
+  width: 285px;
+  background: #d14836;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid #d14836;
+  text-align: center;
+  color: white;
+}
+
+.kn{
+  margin-top: 50px;
+  border-top: 1px solid #d14836;
+}
+
+.item{
+  background: #F6DAD7;
+  border: 1px solid #F6DAD7;
+  text-align: center;
+}
+
+.itemb{
+  border: 1px solid #F6DAD7;
+  padding-left: 15px;
+}
+
+.subh3{
+  font-weight: bold;
+  padding: 10px;
+  background: #d14836;
+  margin: 15px 20px -20px 15px;
+  color: white;
+}
+
+#sub ul{
+  margin: 15px 20px -15px 15px;
+  list-style: square;
+  color: #d14836;
+  background: white;
+  padding-bottom: 15px;
+}
+
+#sub ul li{
+  padding: 20px 0px 0px 0px;
+
+}
+
+#sub ul li a{
+  margin-top: 5px;
+  padding-bottom: 2px;
+  color: #d14836;
+  font-size: 17px;
+}
+
+#sub ul li a:hover{
+  font-weight: bold;
+}
+
+.mytxt{
+  margin: 30px 50px 20px 50px;
+  font-size: 15px;
+  color: #d14836;
+}
+
+.myinfbutton{
+  font-size: 24px;
+  margin: 15px auto 15px auto;
+  width: 360px;
+  line-height: 30px;
+  display:block;
+  border: 3px solid #d14836;
+  color: #AA0000;
+  border-radius: 62px;
+  text-align: center;
+  background: #f3f5d1;
+  padding: 25px 0 25px 0;
+  font-weight: bold;
+}
+
+.myinfbutton:hover{
+  color: #770000;
+  background: #d14836;
+}
+
+#imgst{
+  float: left;
+  margin: 0px 25px 5px 0px;
+  width: 300px;
+  height: 180px;
+}
+
+#imgst2{
+  float: right;
+  margin: 0px 25px 5px 15px;
+  width: 355px;
+  height: 219px;
+}
